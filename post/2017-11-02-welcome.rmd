@@ -1,8 +1,0 @@
----
-title: Welcome.rmd
-author: ~
-date: '2017-11-02'
-slug: welcome-rmd
-categories: []
-tags: []
----
