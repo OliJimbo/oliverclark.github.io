@@ -21,5 +21,26 @@
 The purpose of this blog is to document my PhD progress to try and encourage me to write. I keep a research notebook but the handwriting is terrible and whenever I read back on it the content is incoherant.</description>
     </item>
     
+    <item>
+      <title>Pre-Registration</title>
+      <link>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
+      <description>Last night I submitted my first pre-registration to the OSF.io Pre-registration challenge.
+The study is a Bayesian meta-analysis of studies using video game avatars to influence health behaviours and attitudes. The process involved the following:
+Deconstructing a previous meta-analysis Initially I wanted to learn meta-analytical methods by using previous data rather than beating my own data into submission. This was a difficult process since:
+ the supplementary data was a pdf with that weird tendancy to select content in random patterns</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/oliverclark.github.io/./1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
+    </item>
+    
   </channel>
 </rss>
