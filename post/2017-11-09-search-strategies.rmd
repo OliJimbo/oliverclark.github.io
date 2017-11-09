@@ -64,7 +64,15 @@ I found that through this process I learned what sort of terms and combinations 
 An example training search is was:
 
 ```
-( TITLE-ABS-KEY ( ( avatar  AND  ( "Proteus Effect" )  OR  ( self  AND  avatar )  OR  ( virtual  AND  self  OR  doppelgänger )  OR  ( "Video game"  OR  video-game  OR  "Virtual reality"  OR  "Second life"  OR  wii  OR  Kinect  OR  "Playstation Move" ) ) )  AND  TITLE-ABS-KEY ( health*  OR  diet  OR  exercise  OR  alcohol  OR  "ultra violet"  OR  smoking  OR  sex*  OR substance  OR  addiction  OR  ( body  OR  image  OR  dissatisfaction )  AND  ( behavio*  AND  ( change  OR  intention  OR  attitude )  OR  intervention ) )  AND NOT  TITLE-ABS-KEY ( "Stem Cell"  OR  bacter*  OR  phobi*  OR  anxiety  OR  anxious  OR  psychiat*  OR  "mentalhealth"  OR  "e-mental health"  OR  rehabilitation ) )
+( TITLE-ABS-KEY ( ( avatar  AND  ( "Proteus Effect" )  OR  
+( self  AND  avatar )  OR  ( virtual  AND  self  OR  doppelgänger )  
+OR  ( "Video game"  OR  video-game  OR  "Virtual reality"  OR  "Second life"  
+OR  wii  OR  Kinect  OR  "Playstation Move" ) ) )  AND  TITLE-ABS-KEY ( health*  
+OR  diet  OR  exercise  OR  alcohol  OR  "ultra violet"  OR  smoking  OR  sex* 
+OR substance  OR  addiction  OR  ( body  OR  image  OR  dissatisfaction )  
+AND  ( behavio*  AND  ( change  OR  intention  OR  attitude )  OR  intervention ) )  
+AND NOT  TITLE-ABS-KEY ( "Stem Cell"  OR  bacter*  OR  phobi*  OR  anxiety  
+OR  anxious  OR  psychiat*  OR  "mentalhealth"  OR  "e-mental health"  OR  rehabilitation ) )
 ```
 
 ##Refinement
