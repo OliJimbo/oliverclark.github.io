@@ -2,40 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Oliver Clark&#39;s New Blog</title>
-    <link>/oliverclark.github.io/./categories/</link>
+    <link>https://olijimbo.github.io/oliverclark.github.io/./categories/</link>
     <description>Recent content in Categories on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/oliverclark.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Meta Analysis</title>
-      <link>/oliverclark.github.io/./categories/meta-analysis/</link>
-      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./categories/meta-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>/oliverclark.github.io/./categories/research/</link>
-      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./categories/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>/oliverclark.github.io/./categories/search/</link>
-      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./categories/search/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
