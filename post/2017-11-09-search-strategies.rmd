@@ -1,10 +1,10 @@
 ---
-title: Search_Strategies.Rmd
-author: ~
+title: Search Strategies
+author: Oliver
 date: '2017-11-09'
 slug: search-strategies-rmd
-categories: []
-tags: []
+categories: [meta-analysis, systematic review]
+tags: [meta-analysis, systematic review, search strategy, PhD]
 ---
 
 Today's lesson was that writing systematic search terms is hard.
