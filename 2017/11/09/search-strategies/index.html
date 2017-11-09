@@ -138,25 +138,31 @@ Two hundred Retrieved</code></pre>
 <p>This was the primordial mash. It involved throwing in any relevant search terms, including long complex terms with lots of phrases and brackets. A bit like when you get a new guitar pedal, or an avatar creation platform on a video game, you might just crank up all of the parameters just to see how ridiculous you can make it sound/look.</p>
 <p>I found that through this process I learned what sort of terms and combinations of functions restrict the yield and open the flood gates letting any old nonsense through. I found that this gave me a good idea of the boundaries of my primary database, in this case Scopus and let me make more informed choices in later iterations. Gradually the number and complexity of the terms reduced.</p>
 <p>An example training search is was:</p>
-<pre><code>( TITLE-ABS-KEY ( ( avatar  AND  ( &quot;Proteus Effect&quot; )  OR  
-( self  AND  avatar )  OR  ( virtual  AND  self  OR  doppelgänger )  
-OR  ( &quot;Video game&quot;  OR  video-game  OR  &quot;Virtual reality&quot;  OR  &quot;Second life&quot;  
-OR  wii  OR  Kinect  OR  &quot;Playstation Move&quot; ) ) )  AND  TITLE-ABS-KEY ( health*  
-OR  diet  OR  exercise  OR  alcohol  OR  &quot;ultra violet&quot;  OR  smoking  OR  sex* 
-OR substance  OR  addiction  OR  ( body  OR  image  OR  dissatisfaction )  
-AND  ( behavio*  AND  ( change  OR  intention  OR  attitude )  OR  intervention ) )  
-AND NOT  TITLE-ABS-KEY ( &quot;Stem Cell&quot;  OR  bacter*  OR  phobi*  OR  anxiety  
-OR  anxious  OR  psychiat*  OR  &quot;mentalhealth&quot;  OR  &quot;e-mental health&quot;  OR  rehabilitation ) )</code></pre>
+<pre><code>(TITLE-ABS-KEY ((avatar AND (&quot;Proteus Effect&quot; ) OR 
+(self AND avatar ) OR (virtual AND self OR doppelgänger ) 
+OR (&quot;Video game&quot; OR video-game OR &quot;Virtual reality&quot; OR &quot;Second life&quot; 
+OR wii OR Kinect OR &quot;Playstation Move&quot; ) ) ) AND TITLE-ABS-KEY (health* 
+OR diet OR exercise OR alcohol OR &quot;ultra violet&quot; OR smoking OR sex* 
+OR substance OR addiction OR (body OR image OR dissatisfaction ) 
+AND (behavio* AND (change OR intention OR attitude ) OR intervention ) ) 
+AND NOT TITLE-ABS-KEY (&quot;Stem Cell&quot; OR bacter* OR phobi* OR anxiety 
+OR anxious OR psychiat* OR &quot;mentalhealth&quot; OR &quot;e-mental health&quot; OR rehabilitation ) )</code></pre>
 </div>
 <div id="refinement" class="section level2">
 <h2>Refinement</h2>
 <p>This involved trying to use fewer terms to get the best looking yield. By best looking I mean nothing absurdly small or obscenely high. I didn’t look at the titles of the papers much, and tried to avoid using the AND NOT function as much as possible. I also took a look at some previous search strategies to see what published ones look like and tried to adapt mine to be more succinct. An example was:</p>
-<pre><code>( TITLE-ABS-KEY ( avatar OR  &quot;proteus effect&quot;  OR  &quot;virtual self-representation&quot;  OR  &quot;virtual self-modelling&quot;  OR  ( avatar  W/3  ( self  OR  similar  OR  relevant ) ) )  AND  TITLE-ABS-KEY ( health*  OR  &quot;body image&quot; )  AND  TITLE-ABS-KEY ( beliefs  OR  attitudes  OR  prevent  OR  chang*  OR  intervention* ) ) </code></pre>
+<pre><code>(TITLE-ABS-KEY (avatar OR &quot;proteus effect&quot; OR &quot;virtual self-representation&quot; 
+OR &quot;virtual self-modelling&quot; OR (avatar W/3 (self OR similar OR relevant ) ) ) 
+AND TITLE-ABS-KEY (health* OR &quot;body image&quot; ) AND TITLE-ABS-KEY (beliefs OR attitudes 
+OR prevent OR chang* OR intervention* ) ) </code></pre>
 </div>
 <div id="adaptation" class="section level2">
 <h2>Adaptation</h2>
 <p>Involved porting the search terms over to other databases. This is often just a matter of copying and pasting, but other times the syntax is different, for example searching for two words and allowing up 3 words between them in Scopus is achieved with Word_1 W/3 Word2. However, in PsycArticles this means that Word_1 must be before Word_2. You have to use N3 in PsychArticles, or NEAR/3 in Web of Science. Further, I found that a predominantly medical platform like PubMed retrieved more mental health articles so I needed to use the NOT statement e.g.:</p>
-<pre><code>(((Avatar OR &quot;proteus effect&quot; OR &quot;virtual self-representation&quot; OR &quot;virtual self-modelling&quot; OR (avatar W/3 (self OR similar OR relevant)))) AND (Health* OR &quot;body image&quot;)) AND (Beliefs OR attitudes OR prevent OR chang* OR intervention*) NOT &quot;Mental health&quot;</code></pre>
+<pre><code>(((Avatar OR &quot;proteus effect&quot; OR &quot;virtual self-representation&quot; 
+OR &quot;virtual self-modelling&quot; OR (avatar W/3 (self OR similar OR relevant)))) 
+AND (Health* OR &quot;body image&quot;)) AND (Beliefs OR attitudes OR prevent OR chang* 
+OR intervention*) NOT &quot;Mental health&quot;</code></pre>
 </div>
 </div>
 <div id="conclusion" class="section level1">
