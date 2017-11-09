@@ -50,9 +50,9 @@ But in cases like ProQuest Nursing there is a very low probability that the auth
 #Upon Reflection
 In an unusual act of reflective practice, I considered what steps I went through to develop my search terms over the past two days (and well into last night) to see if I could find some method in the madness. They were broadly:
 
-*Training Phase
-*Refinement Phase
-*Adaptation Phase
+- Training Phase
+- Refinement Phase
+- Adaptation Phase
 
 This is by no means something that I planned, more of an attempt to understand a hazy and chaotic process in terms of a model.
 
