@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/oliverclark.github.io/./tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Meta Analysis</title>
       <link>/oliverclark.github.io/./tags/meta-analysis/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./tags/meta-analysis/</guid>
       <description></description>
@@ -39,11 +39,29 @@
     </item>
     
     <item>
+      <title>Process</title>
+      <link>/oliverclark.github.io/./tags/process/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Registered Reports</title>
       <link>/oliverclark.github.io/./tags/registered-reports/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./tags/registered-reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/oliverclark.github.io/./tags/research/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./tags/research/</guid>
       <description></description>
     </item>
     

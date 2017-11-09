@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/oliverclark.github.io/./2017/11/09/search-strategies-rmd/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
   </url>
@@ -22,19 +27,29 @@
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./1/01/01/</loc>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./categories/meta-analysis/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./tags/meta-analysis/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/oliverclark.github.io/./</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +61,7 @@
   
   <url>
     <loc>/oliverclark.github.io/./post/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,14 +72,38 @@
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./tags/process/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./tags/registered-reports/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./categories/research/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./tags/research/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./categories/search/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./tags/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

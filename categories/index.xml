@@ -10,5 +10,32 @@
 	<atom:link href="/oliverclark.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Meta Analysis</title>
+      <link>/oliverclark.github.io/./categories/meta-analysis/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/meta-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/oliverclark.github.io/./categories/research/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/oliverclark.github.io/./categories/search/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/search/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
