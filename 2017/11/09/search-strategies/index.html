@@ -71,15 +71,16 @@
     
 
     <div class="article-content">
-      <p>Today’s lesson was that writing systematic search terms is hard.</p>
-<p>That is an oversimplification, which is the topic of this blog. It has actually taken me two days to figure this out.</p>
+      <p>Today’s lesson is that writing systematic search terms is hard.</p>
+<p>That is a bit of an oversimplification, which is the topic of this blog.</p>
+<p>It has actually taken me two days to figure this out.</p>
 <p>I have read a number of meta-analysis papers, have reproduced one and am currently embarking on my very own. The methods sections of these papers are usually very zen:</p>
 <pre><code>The search terms were set
-&quot;This phrase&quot; AND (this word OR that*)
+&quot;This phrase&quot; AND (this word OR that)
 Two hundred Retrieved</code></pre>
-<p>Naturally I swallowed this down and excitedly started my search using the draft search strategy I had produced for my PRISMA statement and found that it is not a straight forward process. I was met with syntax inconsistencies, Python-like errors due to mismatched parentheses and quote-marks which were lost during copying and pasting, and vast differences in the number of papers retrieved using the same terms (between databases, and within in one case!<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
+<p>Naturally I totally bought this and excitedly started my search using the draft search strategy I had produced for my PRISMA statement. I soon found that it is not such a straight forward process. I was met with syntax inconsistencies, Python-like errors due to mismatched parentheses and quote-marks which were lost during copying and pasting, and vast differences in the number of papers retrieved using the same terms (between databases, and in one case within!<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
 <p>This was not nearly as clear cut as the literature would have me believe!</p>
-<p>I started to think that this was all down to me not planning properly. To give myself the benefit of the doubt I revisited a published meta-analysis and ran their search terms through some of the databases they queried (not all were available to me).</p>
+<p>I started to think that this was due to a failure in planning on my part. I gave myself the benefit of the doubt and revisited a published meta-analysis. I copied and ran their search terms through some of the databases they queried (not all were available to me).</p>
 <table>
 <thead>
 <tr class="header">
@@ -124,24 +125,25 @@ Two hundred Retrieved</code></pre>
 </table>
 <hr />
 <p>The authors reported finding just over 320 papers before selection.</p>
-<p>Looking at the number of retrieved citations, the authors probably had a similar problem to me, but just didn’t report it!</p>
-<p>This isn’t a debunking attempt or anything like that, which is why I am not naming the paper. It is a very thorough meta-analysis with preferred reporting items provided and at least one replication/adaptation that I know of.</p>
+<p>Looking at the number of retrieved citations it looks as though the authors had a similar problem to me but just didn’t report it!</p>
+<p>This isn’t a debunking attempt which is why I am not naming the paper which is very thorough with preferred reporting items provided and at least one replication/adaptation that I know of.</p>
 <p>I also understand why the process of developing search terms isn’t described in detail in journals. It would be incredibly boring to read!</p>
-<p>But in cases like ProQuest Nursing there is a very low probability that the authors sifted through 20,000 entries.</p>
+<p>But in cases like ProQuest Nursing above there is a very low probability that the authors sifted through 20,000 entries.</p>
 <div id="upon-reflection" class="section level1">
 <h1>Upon Reflection</h1>
-<p>In an unusual act of reflective practice, I considered what steps I went through to develop my search terms over the past two days (and well into last night) to see if I could find some method in the madness. They were broadly:</p>
+<p>In an unusual act of reflective practice I considered what steps I went through to develop my search terms over the past two days (and well into last night) to see if I could find some method in the madness.</p>
+<p>They were broadly:</p>
 <ul>
 <li>Training Phase</li>
 <li>Refinement Phase</li>
 <li>Adaptation Phase</li>
 </ul>
-<p>This is by no means something that I planned, more of an attempt to understand a hazy and chaotic process in terms of a model.</p>
+<p>This is by no means something that I planned, but more of an attempt to understand a hazy and chaotic process in terms of a model.</p>
 <div id="training" class="section level2">
 <h2>Training</h2>
-<p>This was the primordial mash. It involved throwing in any relevant search terms, including long complex terms with lots of phrases and brackets. A bit like when you get a new guitar pedal, or an avatar creation platform on a video game, you might just crank up all of the parameters just to see how ridiculous you can make it sound/look.</p>
-<p>I found that through this process I learned what sort of terms and combinations of functions restrict the yield and open the flood gates letting any old nonsense through. I found that this gave me a good idea of the boundaries of my primary database, in this case Scopus and let me make more informed choices in later iterations. Gradually the number and complexity of the terms reduced.</p>
-<p>An example training search is was:</p>
+<p>This was the primordial mash. It involved throwing in any relevant search terms including long complex terms with lots of phrases and brackets. A bit like when you get a new guitar pedal or an avatar creation platform on a video game and just crank up all of the parameters just to see how ridiculous you can make it sound/look.</p>
+<p>I found that through this process I learned what sort of terms and combinations of functions restrict the yield and open the flood gates letting any old nonsense through. I found that this gave me a good idea of the boundaries of my primary database, in this case Scopus, and let me make more informed choices in later iterations. Gradually the number and complexity of the terms reduced.</p>
+<p>An example of one of my training searches is:</p>
 <pre><code>(TITLE-ABS-KEY ((avatar AND (&quot;Proteus Effect&quot; ) OR 
 (self AND avatar ) OR (virtual AND self OR doppelgänger ) 
 OR (&quot;Video game&quot; OR video-game OR &quot;Virtual reality&quot; OR &quot;Second life&quot; 
@@ -154,7 +156,7 @@ OR anxious OR psychiat* OR &quot;mentalhealth&quot; OR &quot;e-mental health&quo
 </div>
 <div id="refinement" class="section level2">
 <h2>Refinement</h2>
-<p>This involved trying to use fewer terms to get the best looking yield. By best looking I mean nothing absurdly small or obscenely high. I didn’t look at the titles of the papers much, and tried to avoid using the AND NOT function as much as possible. I also took a look at some previous search strategies to see what published ones look like and tried to adapt mine to be more succinct. An example was:</p>
+<p>This involved trying to use fewer terms to get the best looking yield. By best looking I mean nothing absurdly small or obscenely large. I didn’t look at the titles of the papers much initially, but eventually started checking keywords to see if anything could be added to the terms. I tried to avoid using the AND NOT function as much as possible. I also took a look at some previous published search strategies to see what published ones look like and tried to adapt mine to be more succinct. An example was:</p>
 <pre><code>(TITLE-ABS-KEY (avatar OR &quot;proteus effect&quot; OR &quot;virtual self-representation&quot; 
 OR &quot;virtual self-modelling&quot; OR (avatar W/3 (self OR similar OR relevant))) 
 AND TITLE-ABS-KEY (health* OR &quot;body image&quot;) AND TITLE-ABS-KEY (beliefs OR attitudes 
