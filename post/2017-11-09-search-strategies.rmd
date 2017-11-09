@@ -2,9 +2,9 @@
 title: Search Strategies
 author: Oliver
 date: '2017-11-09'
-slug: search-strategies-rmd
-categories: [meta-analysis, systematic review]
-tags: [meta-analysis, systematic review, search strategy, PhD]
+slug: search-strategies
+categories: [meta-analysis, systematic review, PhD]
+tags: [meta-analysis, systematic review, PhD, Search Criteria]
 ---
 
 Today's lesson was that writing systematic search terms is hard.

@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies-rmd/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies-rmd/</loc>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -37,13 +32,13 @@
   </url>
   
   <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/meta-analysis/</loc>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/meta-analysis/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/meta-analysis/</loc>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/meta-analysis/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -67,6 +62,12 @@
   </url>
   
   <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/phd/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./post/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -85,19 +86,19 @@
   </url>
   
   <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/search-strategy/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/systematic-review/</loc>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/search-criteria/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/systematic-review/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/systematic-review/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
