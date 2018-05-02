@@ -6,19 +6,45 @@
     <description>Recent content on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/oliverclark.github.io/./index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Proteus Effect and the Problem with Primary Sources.Rmd</title>
-      <link>/oliverclark.github.io/./2017/11/22/proteus-effect-rmd/</link>
-      <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
+      <title>Press_Releases.Rmd</title>
+      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/22/proteus-effect-rmd/</guid>
-      <description>Your idols have clay feet and your castles are built on swamps A large part of my PhD project is based on a phenomenon called the Proteus Effect. This refers to a change in attitude or behaviour after the embodiment of an avatar [@yee2007proteus].
-The original studies read like classic Social Psychology studies, the type you learn about at A-Level and really sell the subject to you. In these studies, participants were emerged in a virtual environment using a head mounted display (early versions of the Oculus Rift, PS VR or Vive) and observed a 3D representation in a virtual mirror.</description>
+      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <description>Hi - just a quick note on academic posters at conferences.
+I have seen that a few posters have received some media attention this week.
+In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
+There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
+    </item>
+    
+    <item>
+      <title>Press_Releases.Rmd</title>
+      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <description>Hi - just a quick note on academic posters at conferences.
+I have seen that a few posters have received some media attention this week.
+In the only one that I’ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
+There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
+    </item>
+    
+    <item>
+      <title>Press_Releases.Rmd</title>
+      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <description>Hi - just a quick note on academic posters at conferences.
+I have seen that a few posters have received some media attention this week.
+In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
+There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
     </item>
     
     <item>
@@ -74,6 +100,15 @@ Background:  I studied a BSc in Psychology at the University of Hull between 200
       
       <guid>/oliverclark.github.io/./1/01/01/</guid>
       <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/oliverclark.github.io/./1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <description>Press_Releases.Rmd       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>
