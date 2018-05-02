@@ -2,48 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quality on Oliver Clark&#39;s New Blog</title>
-    <link>/oliverclark.github.io/./tags/quality/</link>
+    <link>https://olijimbo.github.io/oliverclark.github.io/./tags/quality/</link>
     <description>Recent content in Quality on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/oliverclark.github.io/./tags/quality/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./tags/quality/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Press_Releases.Rmd</title>
-      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
-      <description>Hi - just a quick note on academic posters at conferences.
-I have seen that a few posters have received some media attention this week.
-In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
-There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
-    </item>
-    
-    <item>
-      <title>Press_Releases.Rmd</title>
-      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
-      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
       <description>Hi - just a quick note on academic posters at conferences.
 I have seen that a few posters have received some media attention this week.
 In the only one that I’ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
-There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
-    </item>
-    
-    <item>
-      <title>Press_Releases.Rmd</title>
-      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
-      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
-      <description>Hi - just a quick note on academic posters at conferences.
-I have seen that a few posters have received some media attention this week.
-In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
 There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
     </item>
     
