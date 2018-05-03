@@ -23,5 +23,15 @@ Deconstructing a previous meta-analysis Initially I wanted to learn meta-analyti
  the supplementary data was a pdf with that weird tendancy to select content in random patterns</description>
     </item>
     
+    <item>
+      <title>The Great Glass Laboratory</title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/the-great-glass-laboratory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/the-great-glass-laboratory/</guid>
+      <description>knitr::opts_chunk$set(echo = FALSE)  Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
+I am a second year PhD student currently, but I came into this late in the day.</description>
+    </item>
+    
   </channel>
 </rss>

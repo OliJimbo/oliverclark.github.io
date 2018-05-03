@@ -32,6 +32,14 @@
   </url>
   
   <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</loc>
+  </url>
+  
+  <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</loc>
+  </url>
+  
+  <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/</loc>
     <priority>0</priority>
   </url>
@@ -57,6 +65,11 @@
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/open-science/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/open-science/</loc>
     <priority>0</priority>
   </url>
   
@@ -91,6 +104,11 @@
   </url>
   
   <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/reproducibility/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/search-criteria/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -112,6 +130,10 @@
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/the-great-glass-laboratory/</loc>
   </url>
   
 </urlset>
