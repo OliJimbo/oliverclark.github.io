@@ -6,10 +6,30 @@
     <description>Recent content in Posts on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Great Glass Laboratory</title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/03/the-great-glass-laboratory/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/03/the-great-glass-laboratory/</guid>
+      <description>Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
+I am a second year PhD student currently, but I came into this late in the day. I originally left academia in 2010 and worked in a bookshop for 5 years before becoming a technical officer at MMU where I eventually landed funding to do a full time PhD project on videogame avatars and exercise.</description>
+    </item>
+    
+    <item>
+      <title>The Great Glass Laboratory</title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/03/the-great-glass-laboratory/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/03/the-great-glass-laboratory/</guid>
+      <description>Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
+I am a second year PhD student currently, but I came into this late in the day. I originally left academia in 2010 and worked in a bookshop for 5 years before becoming a technical officer at MMU where I eventually landed funding to do a full time PhD project on videogame avatars and exercise.</description>
+    </item>
     
     <item>
       <title>Responsible Conference Poster Press Releases</title>
@@ -74,15 +94,6 @@ Deconstructing a previous meta-analysis Initially I wanted to learn meta-analyti
       
       <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>Responsible Conference Poster Press Releases       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
-      <description>The Great Glass Laboratory       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>
