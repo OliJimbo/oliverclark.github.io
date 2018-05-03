@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>Conference Poster Press Releases</title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <description>Hi - just a quick note on academic posters at conferences.
+I have seen that a few posters have received some media attention this week.
+In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the conclusion seemed to rely on the lack of significant effect in a t-test which follows the denial of the antecedent fallacy.
+There were other issues, like bar graphs being presented that started from a non-zero integer, and various methodological issues that (I hope) would have been desk rejected or raised by reviewers.</description>
+    </item>
+    
+    <item>
       <title>Search Strategies</title>
       <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
@@ -73,6 +85,24 @@ Background:  I studied a BSc in Psychology at the University of Hull between 200
       
       <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
+      <description>Conference Poster Press Releases       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
+      <description>Press_Releases       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>
