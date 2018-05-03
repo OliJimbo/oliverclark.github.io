@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Science on Oliver Clark&#39;s New Blog</title>
-    <link>https://olijimbo.github.io/oliverclark.github.io/./categories/open-science/</link>
+    <link>/oliverclark.github.io/./categories/open-science/</link>
     <description>Recent content in Open Science on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./categories/open-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oliverclark.github.io/./categories/open-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Great Glass Laboratory</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/the-great-glass-laboratory/</link>
-      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      <link>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/the-great-glass-laboratory/</guid>
+      <guid>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</guid>
       <description>Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
 I am a second year PhD student currently, but I came into this late in the day. I originally left academia in 2010 and worked in a bookshop for 5 years before becoming a technical officer at MMU where I eventually landed funding to do a full time PhD project on videogame avatars and exercise.</description>
     </item>
