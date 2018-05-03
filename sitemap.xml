@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/the-great-glass-laboratory/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -64,24 +69,25 @@
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/open-science/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/open-science/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/phd/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./categories/phd/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,6 +111,7 @@
   
   <url>
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/reproducibility/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,10 +137,6 @@
     <loc>https://olijimbo.github.io/oliverclark.github.io/./tags/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/the-great-glass-laboratory/</loc>
   </url>
   
 </urlset>
