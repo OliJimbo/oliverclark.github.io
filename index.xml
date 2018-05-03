@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Clark&#39;s New Blog</title>
-    <link>/oliverclark.github.io/./</link>
+    <link>https://olijimbo.github.io/oliverclark.github.io/./</link>
     <description>Recent content on Oliver Clark&#39;s New Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/oliverclark.github.io/./index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Conference Poster Press Releases</title>
-      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
       <description>I wanted to leave a quick note on my experience of the press and academic posters at conferences.
 I have seen that a few posters have received some media attention this week.
 In the only one that I&amp;rsquo;ve had a close look at the analysis was very tenuous and the headline conclusion seemed to rely on the lack of significant effect in a t-test (denial of the antecedent fallacy).
@@ -25,10 +25,10 @@ There were other statistical and methodological issues that (I hope) would have 
     
     <item>
       <title>Search Strategies</title>
-      <link>/oliverclark.github.io/./2017/11/09/search-strategies/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
       <description>Today’s lesson is that writing systematic search terms is hard.
 That is a bit of an oversimplification, which is the topic of this blog.
 It has actually taken me two days to figure this out.
@@ -38,20 +38,20 @@ The search terms were set &amp;quot;This phrase&amp;quot; AND (this word OR that
     
     <item>
       <title>Hello_World.Rmd</title>
-      <link>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
       <description>In true coding fashion, here&amp;rsquo;s the obligatory hello world post. I&amp;rsquo;ve been typing hello world into programming langyages since I was 12 and that&amp;rsquo;s usually as far as I got with coding until about 2 years ago when I started using PsychoPy.
 The purpose of this blog is to document my PhD progress to try and encourage me to write. I keep a research notebook but the handwriting is terrible and whenever I read back on it the content is incoherant.</description>
     </item>
     
     <item>
       <title>Pre-Registration</title>
-      <link>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
       <description>Last night I submitted my first pre-registration to the OSF.io Pre-registration challenge.
 The study is a Bayesian meta-analysis of studies using video game avatars to influence health behaviours and attitudes. The process involved the following:
 Deconstructing a previous meta-analysis Initially I wanted to learn meta-analytical methods by using previous data rather than beating my own data into submission. This was a difficult process since:
@@ -60,10 +60,10 @@ Deconstructing a previous meta-analysis Initially I wanted to learn meta-analyti
     
     <item>
       <title>About</title>
-      <link>/oliverclark.github.io/./about/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
-      <guid>/oliverclark.github.io/./about/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./about/</guid>
       <description>I am a PhD student at Manchester Metropolitan University trying to apply lessons learned from the reproducability crisis to a project on the Proteus Effect, health and body image.
 Background:  I studied a BSc in Psychology at the University of Hull between 2004-2007. My dissertation was on driver distraction and roadside advertising.
  I studied for an MRes in Psychological Research Methods between 2007-2008 for which I investigated Visual Variant Alzheimer&amp;rsquo;s Disease.</description>
@@ -71,10 +71,10 @@ Background:  I studied a BSc in Psychology at the University of Hull between 200
     
     <item>
       <title></title>
-      <link>/oliverclark.github.io/./1/01/01/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
     </item>
     
