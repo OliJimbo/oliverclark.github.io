@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Oliver Clark&#39;s New Blog</title>
-    <link>https://olijimbo.github.io/oliverclark.github.io/./post/</link>
-    <description>Recent content in Posts on Oliver Clark&#39;s New Blog</description>
+    <title>Posts on Let&#39;s See What Happens When We Take Away The Puppy</title>
+    <link>/oliverclark.github.io/./post/</link>
+    <description>Recent content in Posts on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oliverclark.github.io/./post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Great Glass Laboratory</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</link>
+      <link>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</guid>
+      <guid>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</guid>
       <description>Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
 I am a second year PhD student currently, but I came into this late in the day. I originally left academia in 2010 and worked in a bookshop for 5 years before becoming a technical officer for the MMU psychology department where I eventually landed funding to do a full time PhD project on the psychology of videogame avatars and exercise.</description>
     </item>
     
     <item>
       <title>Responsible Conference Poster Press Releases</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
       <description>I wanted to leave a quick note on my experience of the press and academic posters at conferences.
 I have seen that a few posters have received some media attention this week.
 In the only entry that I had a close look at, the analysis was very tenuous and the headline conclusion seemed to rely on the absence of a significant effect (i.e. denial of the antecedent fallacy).
@@ -35,10 +35,10 @@ There were other statistical and methodological issues which (I hope) would have
     
     <item>
       <title>Search Strategies</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</link>
+      <link>/oliverclark.github.io/./2017/11/09/search-strategies/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
+      <guid>/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
       <description>Today’s lesson is that writing systematic search terms is hard.
 That is a bit of an oversimplification, which is the topic of this blog.
 It has actually taken me two days to figure this out.
@@ -48,20 +48,20 @@ The search terms were set &amp;quot;This phrase&amp;quot; AND (this word OR that
     
     <item>
       <title>Hello_World.Rmd</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
+      <link>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
+      <guid>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
       <description>In true coding fashion, here&amp;rsquo;s the obligatory hello world post. I&amp;rsquo;ve been typing hello world into programming langyages since I was 12 and that&amp;rsquo;s usually as far as I got with coding until about 2 years ago when I started using PsychoPy.
 The purpose of this blog is to document my PhD progress to try and encourage me to write. I keep a research notebook but the handwriting is terrible and whenever I read back on it the content is incoherant.</description>
     </item>
     
     <item>
       <title>Pre-Registration</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
+      <link>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
+      <guid>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
       <description>Last night I submitted my first pre-registration to the OSF.io Pre-registration challenge.
 The study is a Bayesian meta-analysis of studies using video game avatars to influence health behaviours and attitudes. The process involved the following:
 Deconstructing a previous meta-analysis Initially I wanted to learn meta-analytical methods by using previous data rather than beating my own data into submission. This was a difficult process since:
@@ -70,19 +70,19 @@ Deconstructing a previous meta-analysis Initially I wanted to learn meta-analyti
     
     <item>
       <title></title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
+      <link>/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
+      <guid>/oliverclark.github.io/./1/01/01/</guid>
       <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
+      <link>/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
+      <guid>/oliverclark.github.io/./1/01/01/</guid>
       <description>Responsible Conference Poster Press Releases       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
