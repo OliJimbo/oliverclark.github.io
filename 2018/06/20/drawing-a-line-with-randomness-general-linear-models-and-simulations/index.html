@@ -292,7 +292,7 @@ n = n+3 #Keeping equal groups
 
 colnames(Power) &lt;- c(&quot;P_Value&quot;, &quot;Participants&quot;)
 plot(P_Value~Participants, data = Power)</code></pre>
-<p><img src="/oliverclark.github.io/.post/2018-06-20-drawing-a-line-with-randomness-general-linear-models-and-simulations_files/figure-html/Power-2-1.svg" width="576" /></p>
+<p><img src="/oliverclark.github.io/post/2018-06-20-drawing-a-line-with-randomness-general-linear-models-and-simulations_files/figure-html/Power-2-1.svg" width="576" /></p>
 <p>We can then plot the data, as above, to show what p-values you can expect for different sample sizes. It is also a good demonstration of how even though we know there is a mean difference of between 200-500, you can still get values way above 0.05 even with a lot of participants. Try running the code a few times and playing with the different beta values.</p>
 <p>This is by no means the best or most efficient method for running power analysis using simulation (I would suggest working through the documents on the OSF page referenced above to see some more elegant methods), but hopefully it seems intuitive enough to get started.</p>
 <p>In the following weeks I intend to expand on this method, demonstrating how you can use it to run generalised linear models such as count and logistic regression studies. Since I am quite in to Bayesian statistics and the purpose of me doing this analysis was to plan a Bayesian study, I may throw in some of that too.</p>
