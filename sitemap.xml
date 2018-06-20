@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./2018/06/20/general-linear-model-simulation-in-r/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</loc>
     <lastmod>2018-05-04T00:00:00+00:00</lastmod>
   </url>
@@ -41,13 +51,23 @@
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./1/01/01/</loc>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./tags/general-linear-modelling/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +85,7 @@
   
   <url>
     <loc>/oliverclark.github.io/./tags/open-science/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +103,19 @@
   
   <url>
     <loc>/oliverclark.github.io/./post/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./tags/power-analysis/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./categories/power-analysis/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,6 +138,24 @@
   </url>
   
   <url>
+    <loc>/oliverclark.github.io/./tags/simulation/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./categories/simulation/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/oliverclark.github.io/./categories/statistics/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/oliverclark.github.io/./tags/systematic-review/</loc>
     <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -119,7 +169,7 @@
   
   <url>
     <loc>/oliverclark.github.io/./tags/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

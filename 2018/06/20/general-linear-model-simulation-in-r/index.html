@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.30.2" />
+
+
+<title>General Linear Model Simulation In R - Let&#39;s See What Happens When We Take Away The Puppy</title>
+<meta property="og:title" content="General Linear Model Simulation In R - Let&#39;s See What Happens When We Take Away The Puppy">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/oliverclark.github.io/css/fonts.css" media="all">
+<link rel="stylesheet" href="/oliverclark.github.io/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/oliverclark.github.io/" class="nav-logo">
+    <img src="/oliverclark.github.io/images/puppa.JPG"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/oliverclark.github.io/about/">About</a></li>
+    
+    <li><a href="https://github.com/olijimbo">GitHub</a></li>
+    
+    <li><a href="https://osf.io/rza9u/">OSF</a></li>
+    
+    <li><a href="https://twitter.com/PsyTechOli">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">9 min read</span>
+    
+
+    <h1 class="article-title">General Linear Model Simulation In R</h1>
+
+    
+    <span class="article-date">2018/06/20</span>
+    
+
+    <div class="article-content">
+      
+
+<h2 id="introduction">Introduction</h2>
+
+<p>I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.</p>
+
+<p>One of the ways that this can be achieved is by simulating the data that you expect to see if your hypothesis is correct.  This was suggested by <a href="https://osf.io/sejdw/">Stan Lazic</a> at the Cumberland Lodge Reproducibility Retreat this year and simulation was covered also by <a href="https://osf.io/thpsg/">Dorothy Bishop</a> and <a href="https://osf.io/dk3vr/">Daniel Lakens</a>.</p>
+
+<p>In essence, the point of simulation-based power analysis is to bash out a huge number of &lsquo;replications&rsquo; by drawing random numbers that represent the participants in your study. You then count the number of instances where p &lt; 0.05<sup class="footnote-ref" id="fnref:or-whichever-alp"><a rel="footnote" href="#fn:or-whichever-alp">1</a></sup>.</p>
+
+<p>There are a number of ways in which this can be achieved, but the one I found most intuitive was reverse engineering the general linear model equation.</p>
+
+<p>The following text and code will cover the following:</p>
+
+<ul>
+<li>Deciding on baseline values.</li>
+<li>Thinking about how manipulations will affect these values.</li>
+<li>Using these two ideals and the equation for a straight line to represent sets of idealised participants.</li>
+<li>Run analyses on these imaginary participants.</li>
+<li>Repeat the above thousands of times and calculate the power of your study.</li>
+<li>Show how sample size affects power.</li>
+</ul>
+
+<h2 id="chosing-parameters">Chosing parameters</h2>
+
+<p>Think of task.  It can be anything.  If you have choice paralysis let&rsquo;s say reaction time on an attentional task.  If you were to take 1000 participants and test them on this task without changing anything, what would you expect the mean reaction time to be?  Let us for now say 900ms $\pm$ 100ms.</p>
+
+<p>How imagine that we take 500 of these participants and load them with some sort of depressant.  Let&rsquo;s say 1000ml of finest Diamond White Cider<sup class="footnote-ref" id="fnref:This-is-what-man"><a rel="footnote" href="#fn:This-is-what-man">2</a></sup>.</p>
+
+<p><img src="/Users/oliverclark/Documents/Dropbox/PhD/Drafts/Diamond.jpg" alt="Cheap white cider" /></p>
+
+<p>How do you think these participants will respond? Do you think they&rsquo;ll get slower?  Perhaps their reaction time will increase by 200ms, so the mean in this group is 900ms \plusminus 100ms.</p>
+
+<p>You have just made assumptions that can be represented by the general linear model.</p>
+
+<h2 id="general-linear-model">General Linear Model</h2>
+
+<p>The form of a general linear model is $y = \alpha + \beta<em>{1}x</em>{1} + \beta<em>{2}x</em>{2}&hellip;+\beta<em>{n}x</em>{n} + \epsilon$<sup class="footnote-ref" id="fnref:I-am-using-Greek"><a rel="footnote" href="#fn:I-am-using-Greek">3</a></sup></p>
+
+<p>Beta is the amount of change in y for any value of x. In our above example that is the difference between the two conditions - in this case 200ms.  Alpha is the value of y when all beta&rsquo;s are 0. So 900ms in the group who are not drinking horrible cider.  Epsilon accounts for the fact that we are not dealing with machines but random data and is just noise added to the model representing unexplained variation.</p>
+
+<p>You can have as many betas as you like in your equation (or as many as is meaningful) but they are meaningless without something (x) to multiply them by.</p>
+
+<p>X can refer to conditions in an experiment (0 = control (no nasty booze), and 1 = experimental (too much nasty booze)) or some scale that you predict will alter y by a certain amount (average alcohol consumption?).</p>
+
+<p>So applying this to our chosen values above, this can be nicely represented by the model above such that $y_{nothing} = 900 + 200*0 + \epsilon$ or just the base score with error. Making x = 1 means that 200 is added to y.</p>
+
+<p>Thom Bagueley<sup class="footnote-ref" id="fnref:I-recently-bough"><a rel="footnote" href="#fn:I-recently-bough">4</a></sup>  describes the lefthand side of the equation as the random element and the righthand side the systematic element. That is, y depends on both the random attributes of the participant and the random assignment within in the study whereas the righthand side of the equation entirely describes y.</p>
+
+<p>One of the general goals of regression analysis is to estimate each $\beta_i$ given $X_i$ and $y_i$<sup class="footnote-ref" id="fnref:oughta"><a rel="footnote" href="#fn:oughta">5</a></sup>.</p>
+
+<h2 id="reverse-engineering">Reverse Engineering</h2>
+
+<p>When reading around how to simulate data I stumbled across a <a href="https://stats.stackexchange.com/questions/115748/simulate-data-for-2-x-2-anova-wi">StackOverflow post</a> that suggests reverse engineering this equation to simulate the data.  That is, rather than estimating $\beta_{i}$ given y and x, you calculate y given a set of $\beta$&rsquo;s and x and adding some random error to it.</p>
+
+<p>This approach helped a lot, since before that I was relying on example of full factorial designs using matrix multiplication^[I had no idea what this was or how to do it - <a href="http://www.sosmath.com/matrix/matrix2/matrix2.html">this link was really valuable if you are interested</a>.</p>
+
+<p>Lets do an example in R:</p>
+
+<pre><code class="language-r, include = TRUE">#set parameters
+
+a = 900 # Value at intercept when X = 0
+b1 = 200 # The about that X is multiplied by
+
+#create a vector of conditions
+
+x &lt;- c(1) #X is one here - if it was 0 then it would be an intercept only model/control condition
+
+#calculate a single observation of y
+
+y &lt;- a + b1*x[1]
+
+</code></pre>
+
+<p>This creates a value of y that is 900 + 200  = 1100ms.  Of course, because we’re dealing with randomness, the parameters will not be perfectly reflected when collecting data from participants, so we add some random noise to y. This is taken from a normal distribution with a mean of 0 and a standard deviations of 100ms:</p>
+
+<pre><code class="language-r, inclue = TRUE">y &lt;- a + b1*x[1] + rnorm(1,0,100)
+y
+</code></pre>
+
+<p>In this observation our simulated participant was only exposed to one condition.</p>
+
+<p>We can expand this to an entire set of participants easily by just changing a few of the lines that we already have:</p>
+
+<pre><code class="language-r, include = TRUE">a = 900
+b1 = 200
+
+# create a vector of conditions for 100 participants
+
+x &lt;- rep(c(1,0),50)
+
+y &lt;- a + b1 * x + rnorm (100,0,100) #compute y for 100 people with normal error
+
+paste(&quot;Mean of Control Group =&quot;, round(mean(y[x==0]), digits = 2))
+paste(&quot;Mean of Cider Group =&quot;, round(mean(y[x==1]), digits = 2))
+</code></pre>
+
+<p>You can explore what is going on here by typing the individual variable names into the R console.</p>
+
+<h2 id="running-analyses-welch-s-t-test">Running Analyses (Welch&rsquo;s t Test)</h2>
+
+<p>We now have 100 participants drawn from the control condition (intercept only) and an experimental condition (mean difference = 2).</p>
+
+<p>To keep things neat, we can create a dataframe to store all of the variables in one place:</p>
+
+<pre><code class="language-r, include = TRUE">dat &lt;- as.data.frame(cbind(y,x,pp = 1:100))
+
+</code></pre>
+
+<p>We can then run a t-test on this equation to see if there is a significant difference:</p>
+
+<pre><code class="language-r, include = TRUE">t.test(y ~ x, data = dat)
+
+</code></pre>
+
+<p>As you can see the mean in group 0 is close to 900 and the mean in group1 is close to 200 which is what we coded our betas as.</p>
+
+<h2 id="analysis-anova">Analysis (ANOVA)</h2>
+
+<p>This can easily be extended to multiple variables and then analysed using Analysis of Variance. Perhaps we give a second group a similar dose of Buckfast<sup class="footnote-ref" id="fnref:this-one-is-more"><a rel="footnote" href="#fn:this-one-is-more">6</a></sup>:</p>
+
+<pre><code class="language-r, include = TRUE">a = 900
+b1 = 200
+b2 = 500
+
+#three groups, 33 a piece
+
+grp1 &lt;- c(rep(0,33),rep(1,33),rep(0,33))
+grp2 &lt;- c(rep(0,66),rep(1,33))
+
+y &lt;- a + b1*grp1 + b2 * grp2 + rnorm(99,0,100)
+
+dat &lt;- as.data.frame(cbind(y,grp1,grp2,pp = 1:99))
+
+summary(aov(y ~ grp1 * grp2, data = dat))
+
+</code></pre>
+
+<p><img src="/Users/oliverclark/Documents/Dropbox/PhD/Drafts/bucky.jpg" alt="Group 2, you poor, poor fools" /></p>
+
+<p>If you run a regression analysis on the same data you will find the values that we set are retrieved:</p>
+
+<pre><code class="language-r, include = TRUE">summary(lm(y~grp1 * grp2, data = dat))
+
+</code></pre>
+
+<h2 id="power-analysis">Power Analysis</h2>
+
+<p>I wont go too far into what Power Analysis is, other than that it tells you the probability you finding an effect, if there is one, given three constraints:</p>
+
+<ol>
+<li>Sample size.</li>
+<li>Effect Size.</li>
+<li>Type 1 error rate (how willing you are to find an effect when there isn&rsquo;t one).</li>
+</ol>
+
+<p>Typically it is used for sample size estimation using software like <a href="http://gpower.hhu.de">G*Power</a> and you would input the smallest effect size that you would deem to be meaningful, your type one error rate (usually 0.05, but see the link above to find out how to justify your this value) and how willing you are to miss an effect if there is one (type two error rate).</p>
+
+<p>Another way to run a power analysis that doesn&rsquo;t necessarily require you to know how to compute Cohen&rsquo;s $F^2$ is to run simulations as we have above.  This way we have to think about what change from the intercept value we think is meaningful.  It also means that we have to know how to analyse our data before we collect it because as we have seen, the same model (GLM) is used to both generate fake samples and analyse the real data.</p>
+
+<h2 id="brute-force-power-analysis">Brute Force Power Analysis</h2>
+
+<p>Using the methods above, you can run the simulation thousands of times and find out what power your model has:</p>
+
+<pre><code class="language-r, include = TRUE">#Create an empty dataframe
+P &lt;- data.frame()
+#Set a loop to repeat the code in Curley brackets ten thousand times
+
+for(i in 1:1e4){
+
+a = 900
+b1 = 200
+b2 = 500
+
+#three groups, 33 a piece
+
+grp1 &lt;- c(rep(0,33),rep(1,33),rep(0,33))
+grp2 &lt;- c(rep(0,66),rep(1,33))
+
+y &lt;- a + b1*grp1 + b2 * grp2 + rnorm(99,0,100)
+
+dat &lt;- as.data.frame(cbind(y,grp1,grp2,pp = 1:99))
+
+#The right side of this looks horrible but it is just an index to the p values in the summary object
+
+P &lt;- rbind(P,P&lt;-summary(aov(y ~ grp1 * grp2, data = dat))[[1]][[&quot;Pr(&gt;F)&quot;]][[1]][[1]])
+
+}
+#Calculate the power
+Power &lt;- length(P[P&lt;0.05])/1e4*100
+</code></pre>
+
+<p>So given the provided mean differences, sample size and number of groups, this simulated study had a power of <code>r Power</code>.</p>
+
+<p>To explore this further you can create a function and pass different sample sizes into the model. So, below we start with 9 participants and then gradually work up to over 300:</p>
+
+<pre><code class="language-r, include= TRUE">Power_Calc &lt;- function(n){
+a = 900
+b1 = 200
+b2 = 500
+
+#three groups, n/3 a piece
+
+grp1 &lt;- c(rep(0,n/3),rep(1,n/3),rep(0,n/3))
+grp2 &lt;- c(rep(0,(n/3*2)),rep(1,n/3))
+
+y &lt;- a + b1*grp1 + b2 * grp2 + rnorm(n,0,100)
+
+dat &lt;- as.data.frame(cbind(y,grp1,grp2,pp = 1:n))
+
+P &lt;- summary(aov(y ~ grp1 * grp2, data = dat))[[1]][[&quot;Pr(&gt;F)&quot;]][[1]][[1]]
+
+return(P)
+}
+
+Power &lt;- data.frame() # Empty dataframe
+n = 9 # starting value of 9 participants)
+
+for(i in 1:100){
+Power &lt;- rbind(Power,cbind(Power_Calc(n),n))
+n = n+3 #Keeping equal groups
+}
+
+colnames(Power) &lt;- c(&quot;P_Value&quot;, &quot;Participants&quot;)
+plot(P_Value~Participants, data = Power)
+</code></pre>
+
+<p>We can then plot the data, as above, to show what p-values you can expect for different sample sizes. It is also a good demonstration of how even though we know there is a mean difference of between 200-500, you can still get values way above 0.05 even with a lot of participants.  Try running the code a few times and playing with the different beta values.</p>
+
+<p>This is by no means the best or most efficient method for running power analysis using simulation (I would suggest working through the documents on the OSF page referenced above to see some more elegant methods), but hopefully it seems intuitive enough to get started.</p>
+
+<p>In the following weeks I intend to expand on this method, demonstrating how you can use it to run generalised linear models such as count and logistic regression studies.  Since I am quite in to Bayesian statistics and the purpose of me doing this analysis was to plan a Bayesian study, I may throw in some of that too.</p>
+
+<p>Thanks for reading!</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:or-whichever-alp"><a href="https://osf.io/by2kc/">or whichever alpha you choose</a> <a class="footnote-return" href="#fnref:or-whichever-alp"><sup>[return]</sup></a></li>
+<li id="fn:This-is-what-man">This is what many UK teenagers first discover hangovers with^ [My first draft of this mentioned White Lightening which was notorious when I was at school - but I have since found that it was discontinued in 2009] <a class="footnote-return" href="#fnref:This-is-what-man"><sup>[return]</sup></a></li>
+<li id="fn:I-am-using-Greek">I am using Greek letters below because this is the terminology used in regression equations. <a class="footnote-return" href="#fnref:I-am-using-Greek"><sup>[return]</sup></a></li>
+<li id="fn:I-recently-bough">I recently bought his book Serious Stats and it is really accessible given the content - definitely one to buy if you&rsquo;re ready to get serious with your statistics! <a class="footnote-return" href="#fnref:I-recently-bough"><sup>[return]</sup></a></li>
+<li id="fn:oughta">oughta! <a class="footnote-return" href="#fnref:oughta"><sup>[return]</sup></a></li>
+<li id="fn:this-one-is-more">this one is more for the students and those north of Hadrian&rsquo;s wall <a class="footnote-return" href="#fnref:this-one-is-more"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//https-olijimbo-github-io-oliverclark-github-io.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/oliverclark.github.io/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/oliverclark.github.io/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/oliverclark.github.io/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

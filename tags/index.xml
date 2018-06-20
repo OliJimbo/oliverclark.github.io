@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/oliverclark.github.io/./tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General Linear Modelling</title>
+      <link>/oliverclark.github.io/./tags/general-linear-modelling/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./tags/general-linear-modelling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Meta Analysis</title>
@@ -23,7 +32,7 @@
     <item>
       <title>Open Science</title>
       <link>/oliverclark.github.io/./tags/open-science/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./tags/open-science/</guid>
       <description></description>
@@ -35,6 +44,15 @@
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./tags/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power Analysis</title>
+      <link>/oliverclark.github.io/./tags/power-analysis/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./tags/power-analysis/</guid>
       <description></description>
     </item>
     
@@ -62,6 +80,15 @@
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./tags/search-criteria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation</title>
+      <link>/oliverclark.github.io/./tags/simulation/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./tags/simulation/</guid>
       <description></description>
     </item>
     
