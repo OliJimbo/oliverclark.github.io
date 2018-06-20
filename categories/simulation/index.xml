@@ -17,15 +17,6 @@
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General Linear Model Simulation In R</title>
-      <link>/oliverclark.github.io/./2018/06/20/general-linear-model-simulation-in-r/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/oliverclark.github.io/./2018/06/20/general-linear-model-simulation-in-r/</guid>
       <description>Introduction I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.
 One of the ways that this can be achieved is by simulating the data that you expect to see if your hypothesis is correct.</description>
     </item>
