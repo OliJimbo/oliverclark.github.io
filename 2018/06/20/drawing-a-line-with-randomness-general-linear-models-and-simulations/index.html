@@ -71,7 +71,20 @@
     
 
     <div class="article-content">
-      <div id="introduction" class="section level2">
+      <div id="TOC">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#chosing-parameters">Chosing parameters</a></li>
+<li><a href="#general-linear-model">General Linear Model</a></li>
+<li><a href="#reverse-engineering">Reverse Engineering</a></li>
+<li><a href="#running-analyses-welchs-t-test">Running Analyses (Welch’s t Test)</a></li>
+<li><a href="#analysis-anova">Analysis (ANOVA)</a></li>
+<li><a href="#power-analysis">Power Analysis</a></li>
+<li><a href="#brute-force-power-analysis">Brute Force Power Analysis</a></li>
+</ul>
+</div>
+
+<div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.</p>
 <p>One of the ways that this can be achieved is by simulating the data that you expect to see if your hypothesis is correct. This was suggested by <a href="https://osf.io/sejdw/">Stan Lazic</a> at the Cumberland Lodge Reproducibility Retreat this year and simulation was covered also by <a href="https://osf.io/thpsg/">Dorothy Bishop</a> and <a href="https://osf.io/dk3vr/">Daniel Lakens</a>.</p>
@@ -124,7 +137,7 @@ y &lt;- a + b1*x[1]</code></pre>
 <p>This creates a value of y that is 900 + 200 = 1100ms. Of course, because we’re dealing with randomness, the parameters will not be perfectly reflected when collecting data from participants, so we add some random noise to y. This is taken from a normal distribution with a mean of 0 and a standard deviations of 100ms:</p>
 <pre class="r"><code>y &lt;- a + b1*x[1] + rnorm(1,0,100)
 y</code></pre>
-<pre><code>## [1] 1284.926</code></pre>
+<pre><code>## [1] 1002.778</code></pre>
 <p>In this observation our simulated participant was only exposed to one condition.</p>
 <p>We can expand this to an entire set of participants easily by just changing a few of the lines that we already have:</p>
 <pre class="r"><code>a = 900
@@ -137,9 +150,9 @@ x &lt;- rep(c(1,0),50)
 y &lt;- a + b1 * x + rnorm (100,0,100) #compute y for 100 people with normal error
 
 paste(&quot;Mean of Control Group =&quot;, round(mean(y[x==0]), digits = 2))</code></pre>
-<pre><code>## [1] &quot;Mean of Control Group = 880.23&quot;</code></pre>
+<pre><code>## [1] &quot;Mean of Control Group = 905.78&quot;</code></pre>
 <pre class="r"><code>paste(&quot;Mean of Cider Group =&quot;, round(mean(y[x==1]), digits = 2))</code></pre>
-<pre><code>## [1] &quot;Mean of Cider Group = 1094.24&quot;</code></pre>
+<pre><code>## [1] &quot;Mean of Cider Group = 1125.37&quot;</code></pre>
 <p>You can explore what is going on here by typing the individual variable names into the R console.</p>
 </div>
 <div id="running-analyses-welchs-t-test" class="section level2">
@@ -153,13 +166,13 @@ paste(&quot;Mean of Control Group =&quot;, round(mean(y[x==0]), digits = 2))</co
 ##  Welch Two Sample t-test
 ## 
 ## data:  y by x
-## t = -9.8182, df = 95.925, p-value = 3.682e-16
+## t = -11.959, df = 91.467, p-value &lt; 2.2e-16
 ## alternative hypothesis: true difference in means is not equal to 0
 ## 95 percent confidence interval:
-##  -257.2722 -170.7389
+##  -256.0534 -183.1135
 ## sample estimates:
 ## mean in group 0 mean in group 1 
-##        880.2346       1094.2402</code></pre>
+##        905.7823       1125.3658</code></pre>
 <p>As you can see the mean in group 0 is close to 900 and the mean in group1 is close to 200 which is what we coded our betas as.</p>
 </div>
 <div id="analysis-anova" class="section level2">
@@ -180,9 +193,9 @@ dat &lt;- as.data.frame(cbind(y,grp1,grp2,pp = 1:99))
 
 summary(aov(y ~ grp1 * grp2, data = dat))</code></pre>
 <pre><code>##             Df  Sum Sq Mean Sq F value  Pr(&gt;F)    
-## grp1         1   75786   75786   7.477 0.00744 ** 
-## grp2         1 3816076 3816076 376.484 &lt; 2e-16 ***
-## Residuals   96  973064   10136                    
+## grp1         1  105080  105080   9.836 0.00227 ** 
+## grp2         1 4068777 4068777 380.844 &lt; 2e-16 ***
+## Residuals   96 1025624   10684                    
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <p>If you run a regression analysis on the same data you will find the values that we set are retrieved:</p>
@@ -192,21 +205,21 @@ summary(aov(y ~ grp1 * grp2, data = dat))</code></pre>
 ## lm(formula = y ~ grp1 * grp2, data = dat)
 ## 
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -198.22  -73.93    9.13   62.81  344.69 
+##      Min       1Q   Median       3Q      Max 
+## -246.260  -64.999    3.171   76.479  201.541 
 ## 
 ## Coefficients: (1 not defined because of singularities)
 ##             Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)   914.34      17.53  52.171  &lt; 2e-16 ***
-## grp1          181.76      24.79   7.334 7.11e-11 ***
-## grp2          480.91      24.79  19.403  &lt; 2e-16 ***
+## (Intercept)   928.11      17.99  51.582  &lt; 2e-16 ***
+## grp1          179.18      25.45   7.042 2.85e-10 ***
+## grp2          496.58      25.45  19.515  &lt; 2e-16 ***
 ## grp1:grp2         NA         NA      NA       NA    
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 100.7 on 96 degrees of freedom
-## Multiple R-squared:    0.8,  Adjusted R-squared:  0.7958 
-## F-statistic:   192 on 2 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+## Residual standard error: 103.4 on 96 degrees of freedom
+## Multiple R-squared:  0.8027, Adjusted R-squared:  0.7986 
+## F-statistic: 195.3 on 2 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 <div id="power-analysis" class="section level2">
 <h2>Power Analysis</h2>
@@ -248,7 +261,7 @@ P &lt;- rbind(P,P&lt;-summary(aov(y ~ grp1 * grp2, data = dat))[[1]][[&quot;Pr(&
 }
 #Calculate the power
 Power &lt;- length(P[P&lt;0.05])/1e4*100</code></pre>
-<p>So given the provided mean differences, sample size and number of groups, this simulated study had a power of 63.56.</p>
+<p>So given the provided mean differences, sample size and number of groups, this simulated study had a power of 64.54.</p>
 <p>To explore this further you can create a function and pass different sample sizes into the model. So, below we start with 9 participants and then gradually work up to over 300:</p>
 <pre class="r"><code>Power_Calc &lt;- function(n){
 a = 900
@@ -279,7 +292,7 @@ n = n+3 #Keeping equal groups
 
 colnames(Power) &lt;- c(&quot;P_Value&quot;, &quot;Participants&quot;)
 plot(P_Value~Participants, data = Power)</code></pre>
-<p><img src="/oliverclark.github.io/.post/2018-06-20-drawing-a-line-with-randomness-general-linear-models-and-simulations_files/figure-html/Power-2-1.png" width="672" /></p>
+<p><img src="/oliverclark.github.io/.post/2018-06-20-drawing-a-line-with-randomness-general-linear-models-and-simulations_files/figure-html/Power-2-1.svg" width="576" /></p>
 <p>We can then plot the data, as above, to show what p-values you can expect for different sample sizes. It is also a good demonstration of how even though we know there is a mean difference of between 200-500, you can still get values way above 0.05 even with a lot of participants. Try running the code a few times and playing with the different beta values.</p>
 <p>This is by no means the best or most efficient method for running power analysis using simulation (I would suggest working through the documents on the OSF page referenced above to see some more elegant methods), but hopefully it seems intuitive enough to get started.</p>
 <p>In the following weeks I intend to expand on this method, demonstrating how you can use it to run generalised linear models such as count and logistic regression studies. Since I am quite in to Bayesian statistics and the purpose of me doing this analysis was to plan a Bayesian study, I may throw in some of that too.</p>
