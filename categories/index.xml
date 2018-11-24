@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/oliverclark.github.io/./categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayes Factors</title>
+      <link>/oliverclark.github.io/./categories/bayes-factors/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/bayes-factors/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Meta Analysis</title>
@@ -29,6 +39,15 @@
     </item>
     
     <item>
+      <title>Power</title>
+      <link>/oliverclark.github.io/./categories/power/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Power Analysis</title>
       <link>/oliverclark.github.io/./categories/power-analysis/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
@@ -40,7 +59,7 @@
     <item>
       <title>Simulation</title>
       <link>/oliverclark.github.io/./categories/simulation/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./categories/simulation/</guid>
       <description></description>
@@ -61,6 +80,15 @@
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/oliverclark.github.io/./categories/systematic-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T Tests</title>
+      <link>/oliverclark.github.io/./categories/t-tests/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/oliverclark.github.io/./categories/t-tests/</guid>
       <description></description>
     </item>
     
