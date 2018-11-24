@@ -137,7 +137,7 @@ y &lt;- a + b1*x[1]</code></pre>
 <p>This creates a value of y that is 900 + 200 = 1100ms. Of course, because we’re dealing with randomness, the parameters will not be perfectly reflected when collecting data from participants, so we add some random noise to y. This is taken from a normal distribution with a mean of 0 and a standard deviations of 100ms:</p>
 <pre class="r"><code>y &lt;- a + b1*x[1] + rnorm(1,0,100)
 y</code></pre>
-<pre><code>## [1] 1135.238</code></pre>
+<pre><code>## [1] 1208.537</code></pre>
 <p>In this observation our simulated participant was only exposed to one condition.</p>
 <p>We can expand this to an entire set of participants easily by just changing a few of the lines that we already have:</p>
 <pre class="r"><code>a = 900
@@ -150,9 +150,9 @@ x &lt;- rep(c(1,0),50)
 y &lt;- a + b1 * x + rnorm (100,0,100) #compute y for 100 people with normal error
 
 paste(&quot;Mean of Control Group =&quot;, round(mean(y[x==0]), digits = 2))</code></pre>
-<pre><code>## [1] &quot;Mean of Control Group = 887.93&quot;</code></pre>
+<pre><code>## [1] &quot;Mean of Control Group = 907.17&quot;</code></pre>
 <pre class="r"><code>paste(&quot;Mean of Cider Group =&quot;, round(mean(y[x==1]), digits = 2))</code></pre>
-<pre><code>## [1] &quot;Mean of Cider Group = 1095.17&quot;</code></pre>
+<pre><code>## [1] &quot;Mean of Cider Group = 1091.8&quot;</code></pre>
 <p>You can explore what is going on here by typing the individual variable names into the R console.</p>
 </div>
 <div id="running-analyses-welchs-t-test" class="section level2">
@@ -166,13 +166,13 @@ paste(&quot;Mean of Control Group =&quot;, round(mean(y[x==0]), digits = 2))</co
 ##  Welch Two Sample t-test
 ## 
 ## data:  y by x
-## t = -10.394, df = 97.559, p-value &lt; 2.2e-16
+## t = -9.7656, df = 97.499, p-value = 4.098e-16
 ## alternative hypothesis: true difference in means is not equal to 0
 ## 95 percent confidence interval:
-##  -246.8140 -167.6754
+##  -222.1421 -147.1031
 ## sample estimates:
 ## mean in group 0 mean in group 1 
-##        887.9294       1095.1741</code></pre>
+##         907.174        1091.797</code></pre>
 <p>As you can see the mean in group 0 is close to 900 and the mean in group1 is close to 200 which is what we coded our betas as.</p>
 </div>
 <div id="analysis-anova" class="section level2">
@@ -192,10 +192,10 @@ y &lt;- a + b1*grp1 + b2 * grp2 + rnorm(99,0,100)
 dat &lt;- as.data.frame(cbind(y,grp1,grp2,pp = 1:99))
 
 summary(aov(y ~ grp1 * grp2, data = dat))</code></pre>
-<pre><code>##             Df  Sum Sq Mean Sq F value Pr(&gt;F)    
-## grp1         1   54441   54441   4.214 0.0428 *  
-## grp2         1 3742853 3742853 289.712 &lt;2e-16 ***
-## Residuals   96 1240244   12919                   
+<pre><code>##             Df  Sum Sq Mean Sq F value   Pr(&gt;F)    
+## grp1         1  189510  189510   16.17 0.000116 ***
+## grp2         1 4363278 4363278  372.21  &lt; 2e-16 ***
+## Residuals   96 1125378   11723                     
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <p>If you run a regression analysis on the same data you will find the values that we set are retrieved:</p>
@@ -206,20 +206,20 @@ summary(aov(y ~ grp1 * grp2, data = dat))</code></pre>
 ## 
 ## Residuals:
 ##      Min       1Q   Median       3Q      Max 
-## -243.908  -73.162   -9.258   76.502  301.004 
+## -268.768  -69.513   -2.019   64.609  273.274 
 ## 
 ## Coefficients: (1 not defined because of singularities)
 ##             Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)   911.54      19.79  46.069  &lt; 2e-16 ***
-## grp1          188.39      27.98   6.733 1.22e-09 ***
-## grp2          476.28      27.98  17.021  &lt; 2e-16 ***
+## (Intercept)   906.87      18.85  48.116  &lt; 2e-16 ***
+## grp1          164.31      26.65   6.164 1.66e-08 ***
+## grp2          514.24      26.65  19.293  &lt; 2e-16 ***
 ## grp1:grp2         NA         NA      NA       NA    
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 113.7 on 96 degrees of freedom
-## Multiple R-squared:  0.7538, Adjusted R-squared:  0.7487 
-## F-statistic:   147 on 2 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+## Residual standard error: 108.3 on 96 degrees of freedom
+## Multiple R-squared:  0.8018, Adjusted R-squared:  0.7977 
+## F-statistic: 194.2 on 2 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 <div id="power-analysis" class="section level2">
 <h2>Power Analysis</h2>
@@ -261,7 +261,7 @@ P &lt;- rbind(P,P&lt;-summary(aov(y ~ grp1 * grp2, data = dat))[[1]][[&quot;Pr(&
 }
 #Calculate the power
 Power &lt;- length(P[P&lt;0.05])/1e4*100</code></pre>
-<p>So given the provided mean differences, sample size and number of groups, this simulated study had a power of 63.72.</p>
+<p>So given the provided mean differences, sample size and number of groups, this simulated study had a power of 63.32.</p>
 <p>To explore this further you can create a function and pass different sample sizes into the model. So, below we start with 9 participants and then gradually work up to over 300:</p>
 <pre class="r"><code>Power_Calc &lt;- function(n){
 a = 900
