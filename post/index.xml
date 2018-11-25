@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Let&#39;s See What Happens When We Take Away The Puppy</title>
-    <link>/oliverclark.github.io/./post/</link>
+    <link>https://olijimbo.github.io/oliverclark.github.io/./post/</link>
     <description>Recent content in Posts on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/oliverclark.github.io/./post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dropping T-bombs</title>
-      <link>/oliverclark.github.io/./2018/11/22/dropping-t-bombs/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/11/22/dropping-t-bombs/</link>
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/11/22/dropping-t-bombs/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/11/22/dropping-t-bombs/</guid>
       <description>I have been planning yet another study1.
 Introduction My current experiment is a follow-up to a previous (qualitative) paper that I have now written up. I am using the same task that I used during the interview study, but am measuring self-report likert scales rather than interpreting narratives. My planned study quickly exploded and became hugely complex, so I thought I would take a step back and start by running a short pilot study to investigate whether the manipulation is effective on a single measure before delving into the structural equation modelling nightmare that it has become.</description>
     </item>
     
     <item>
       <title>Drawing A Line in the Randomness: General Linear Models and Simulations</title>
-      <link>/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</guid>
       <description>Introduction Chosing parameters General Linear Model Reverse Engineering Running Analyses (Welch’s t Test) Analysis (ANOVA) Power Analysis Brute Force Power Analysis   Introduction I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.</description>
     </item>
     
     <item>
       <title>The Great Glass Laboratory</title>
-      <link>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/04/the-great-glass-laboratory/</guid>
       <description>Introduction Hi - this is a companion blog to the talk I gave on knitting open science into my PhD Project. It is, in effect, a list of resources that I use and plan to use in my own research and very much see it as part of my post graduate training.
 I am a second year PhD student currently, but I came into this late in the day. I originally left academia in 2010 and worked in a bookshop for 5 years before becoming a technical officer for the MMU psychology department where I eventually landed funding to do a full time PhD project on the psychology of videogame avatars and exercise.</description>
     </item>
     
     <item>
       <title>Responsible Conference Poster Press Releases</title>
-      <link>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/05/02/press-releases-rmd/</guid>
       <description>I wanted to leave a quick note on my experience of the press and academic posters at conferences.
 I have seen that a few posters have received some media attention this week.
 In the only entry that I had a close look at, the analysis was very tenuous and the headline conclusion seemed to rely on the absence of a significant effect (i.e. denial of the antecedent fallacy).
@@ -54,10 +54,10 @@ There were other statistical and methodological issues which (I hope) would have
     
     <item>
       <title>Search Strategies</title>
-      <link>/oliverclark.github.io/./2017/11/09/search-strategies/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/09/search-strategies/</guid>
       <description>Today’s lesson is that writing systematic search terms is hard.
 That is a bit of an oversimplification, which is the topic of this blog.
 It has actually taken me two days to figure this out.
@@ -67,20 +67,20 @@ The search terms were set &amp;quot;This phrase&amp;quot; AND (this word OR that
     
     <item>
       <title>Hello_World.Rmd</title>
-      <link>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/hello-world-rmd/</guid>
       <description>In true coding fashion, here&amp;rsquo;s the obligatory hello world post. I&amp;rsquo;ve been typing hello world into programming langyages since I was 12 and that&amp;rsquo;s usually as far as I got with coding until about 2 years ago when I started using PsychoPy.
 The purpose of this blog is to document my PhD progress to try and encourage me to write. I keep a research notebook but the handwriting is terrible and whenever I read back on it the content is incoherant.</description>
     </item>
     
     <item>
       <title>Pre-Registration</title>
-      <link>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
       <description>Last night I submitted my first pre-registration to the OSF.io Pre-registration challenge.
 The study is a Bayesian meta-analysis of studies using video game avatars to influence health behaviours and attitudes. The process involved the following:
 Deconstructing a previous meta-analysis Initially I wanted to learn meta-analytical methods by using previous data rather than beating my own data into submission. This was a difficult process since:
@@ -89,28 +89,28 @@ Deconstructing a previous meta-analysis Initially I wanted to learn meta-analyti
     
     <item>
       <title></title>
-      <link>/oliverclark.github.io/./1/01/01/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>Pre-Registration       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
     </item>
     
     <item>
       <title></title>
-      <link>/oliverclark.github.io/./1/01/01/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>Responsible Conference Poster Press Releases       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>
       <title></title>
-      <link>/oliverclark.github.io/./1/01/01/</link>
+      <link>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./1/01/01/</guid>
+      <guid>https://olijimbo.github.io/oliverclark.github.io/./1/01/01/</guid>
       <description>        {&#34;x&#34;:{&#34;url&#34;:&#34;./widget/index.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]} {&#34;viewer&#34;:{&#34;width&#34;:&#34;100%&#34;,&#34;height&#34;:350,&#34;padding&#34;:15,&#34;fill&#34;:false},&#34;browser&#34;:{&#34;width&#34;:&#34;100%&#34;,&#34;height&#34;:500,&#34;padding&#34;:40,&#34;fill&#34;:false}}   </description>
     </item>
     
