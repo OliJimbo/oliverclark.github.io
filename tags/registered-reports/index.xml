@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Registered Reports on Let&#39;s See What Happens When We Take Away The Puppy</title>
-    <link>https://olijimbo.github.io/oliverclark.github.io/./tags/registered-reports/</link>
+    <link>/oliverclark.github.io/./tags/registered-reports/</link>
     <description>Recent content in Registered Reports on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./tags/registered-reports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oliverclark.github.io/./tags/registered-reports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pre-Registration</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
+      <link>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
+      <guid>/oliverclark.github.io/./2017/11/02/pre-registration-rmd/</guid>
       <description>Last night I submitted my first pre-registration to the OSF.io Pre-registration challenge.
 The study is a Bayesian meta-analysis of studies using video game avatars to influence health behaviours and attitudes. The process involved the following:
 Deconstructing a previous meta-analysis Initially I wanted to learn meta-analytical methods by using previous data rather than beating my own data into submission. This was a difficult process since:
