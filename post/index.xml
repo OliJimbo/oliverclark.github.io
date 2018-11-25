@@ -23,10 +23,10 @@ Introduction My current experiment is a follow-up to a previous (qualitative) pa
     
     <item>
       <title>Drawing A Line in the Randomness: General Linear Models and Simulations</title>
-      <link>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</link>
+      <link>/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</guid>
+      <guid>/oliverclark.github.io/./2018/06/20/drawing-a-line-in-the-randomness-general-linear-models-and-simulations/</guid>
       <description>Introduction Chosing parameters General Linear Model Reverse Engineering Running Analyses (Welch’s t Test) Analysis (ANOVA) Power Analysis Brute Force Power Analysis   Introduction I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.</description>
     </item>
     
