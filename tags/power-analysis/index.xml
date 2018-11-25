@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Analysis on Let&#39;s See What Happens When We Take Away The Puppy</title>
-    <link>https://olijimbo.github.io/oliverclark.github.io/./tags/power-analysis/</link>
+    <link>/oliverclark.github.io/./tags/power-analysis/</link>
     <description>Recent content in Power Analysis on Let&#39;s See What Happens When We Take Away The Puppy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://olijimbo.github.io/oliverclark.github.io/./tags/power-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oliverclark.github.io/./tags/power-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Drawing A Line in the Randomness: General Linear Models and Simulations</title>
-      <link>https://olijimbo.github.io/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</link>
+      <link>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://olijimbo.github.io/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</guid>
+      <guid>/oliverclark.github.io/./2018/06/20/drawing-a-line-with-randomness-general-linear-models-and-simulations/</guid>
       <description>Introduction Chosing parameters General Linear Model Reverse Engineering Running Analyses (Welch’s t Test) Analysis (ANOVA) Power Analysis Brute Force Power Analysis   Introduction I am currently planning a replication and extension of an experimental study that had a count-based dependent variable. The aim is to submit it as a registered report before collecting the data and so I need to have an analysis plan and estimated sample size/stopping rule.</description>
     </item>
     
