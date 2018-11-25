@@ -89,7 +89,7 @@
 <div id="the-method" class="section level2">
 <h2>The Method</h2>
 <p>To investigate further, I re-ran my simulations altering r and N sequentially to see at what point a minimal power of 80% was reached, as well as checking type 1 error rates (finding an effect when there isn’t one) under conditions of no effect (r = 0) and various meaningless effect sizes (r = 0.05 - 0.02). I also increased the sample size from 10-100 in steps of 10. I ran the simulations 10,000 times for each permutation and tabulated the findings. I found that 80% power was not achieved until r = 0.6 (so a ‘large’ effect size), and N = 90. That is, even with a population effect that was big enough to be seen with the naked eye in a scatterplot, a sample size that is deemed by many researchers (incorrectly) to be sufficient to detect a three way interaction was needed.</p>
-<p>Continuing with p-hackerish gumption (I was adamant that I was not going to collect over 100 participants for a pilot study) I decided to switch to bayes factors (<em>bayes-lite</em>). These have potential for misuse in the event of a non-significant p-value, and seemed like a legal move here for critical purposes. In brief, Bayes Factors provide an index of the ratio between the probability of a hypothesis and a null given the data. The boil-in-a-bag rule for BFs (not one to be followed blindly) is that anything over 3 is favourable evidence for H1 and anything less than 0.3 is favourable evidence for H0. BFs were only effective at discriminating effects from non-effects when there was a large sample size and effect size levels effective at finding a known null effect (BF &lt; 0.3), but not effective at finding a known effect. The simulations did not reach 80% power (defined by a BF &gt; 3) until r=0.9 and N = 90. This is important to note in studies claiming support for a null hypothesis. That is, there is no way to determine whether there is a true or a false negative when sample sizes are small!</p>
+<p>Continuing with p-hackerish gumption (I was adamant that I was not going to collect over 100 participants for a pilot study) I decided to switch to bayes factors (<em>bayes-lite</em>). These have potential for misuse in the event of a non-significant p-value, and seemed like a legal move here for critical purposes. In brief, Bayes Factors provide an index of the ratio between the probability of a hypothesis and a null given the data. The boil-in-a-bag rule for BFs (not one to be followed blindly) is that anything over 3 is favourable evidence for H1, and anything less than 0.3 is favourable evidence for H0. BFs were calculated using the BayesFactor package <span class="citation">(Morey &amp; Rouder, 2015)</span>. BFs were only effective at discriminating effects from non-effects when there was a large sample size and effect size. They were effective at finding a known null effect (BF &lt; 0.3), but not effective at finding a known effect. The simulations did not reach 80% power (defined by a BF &gt; 3) until r=0.9 and N = 90. This is important to note in studies claiming support for a null hypothesis. That is, there is no way to determine whether there is a true or a false negative when sample sizes are small!</p>
 </div>
 <div id="the-simulations" class="section level2">
 <h2>The Simulations</h2>
@@ -99,7 +99,7 @@
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~OliJ/11.embed">
 </iframe>
 <div>
-<em>NHST power analysis with an independant t-test. Yellow to blue plane is the percentage of observations where p &lt; 0.05</em>
+<em>NHST power analysis with an independant t-test. The blue and yellow plane is the percentage of observations where p &lt; 0.05</em>
 </div>
 <p><br></br> When r &gt; 0.2, the NHST plot shows the power (1 - type two error rate * 100) to detect the effect, and when r &lt; 0.2, it shows chance of finding a meaningless or 0 effect (type 1 error, unless rho &lt; 0.2 is a meaningful effect for you). When the effect is around zero, the type one error rate remains constant around around 5% which is commonly seen as an acceptable level. Over the Rho axis you can at best expect power of around 25% when N = 10 but this exponentially increases with the sample size.</p>
 </div>
@@ -108,7 +108,7 @@
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~OliJ/13.embed">
 </iframe>
 <div>
-<em>Yellow to blue is the rejection of values less than the lower boundary and red to blue is the rejection of values higher than the upper boundary</em>
+<em>The blue and yellow plane is the rejection of values less than the lower boundary and red to blue is the rejection of values higher than the upper boundary</em>
 </div>
 <p><br></br> The TOST graph shows the power to determine whether the effect is above -0.2, or below 0.2. At r = 0.9 and N = 90, the tests correctly reject the presence of small effects and absence of large effects, but this decreases substantially as both parameters decrease, meaning that the results become progressively less informative! For more information about powering an equivalence test, see <span class="citation">Lakens (2017)</span>.</p>
 </div>
@@ -117,9 +117,9 @@
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~OliJ/15.embed">
 </iframe>
 <div>
-<em>Blue to red is the percentage of observations where BF &gt; 3, yellow to blue is the percetange of observations where BF &lt; 0.3.</em>
+<em>The blue and red plane is the percentage of observations where BF &gt; 3, the blue and yellow is the percetange of observations where BF &lt; 0.3.</em>
 </div>
-<p><br></br> The BF_1 and BF_0 plots are mirror opposites, however I have plotted them together to demonstrate that they do not intersect (i.e. false negatives start to become true positives) until r = 0.6 (this is with a sample size of 90). The intersection point forms a curve</p>
+<p><br></br> The BF_1 and BF_0 plots are mirror opposites, however I have plotted them together to demonstrate that they do not intersect (i.e. false negatives start to become true positives) until r = 0.6 when N = 90 and.</p>
 </div>
 </div>
 <div id="so-what" class="section level2">
@@ -145,6 +145,9 @@
 </div>
 <div id="ref-Lakens:2017aa">
 <p>Lakens, D. (2017). Equivalence tests: A practical primer for t-tests, correlations, and meta-analyses. <em>Social Psychological and Personality Science</em>, <em>1</em>, 1–8. <a href="https://doi.org/10.1177/1948550617697177" class="uri">https://doi.org/10.1177/1948550617697177</a></p>
+</div>
+<div id="ref-Morey:2015aa">
+<p>Morey, R. D., &amp; Rouder, J. N. (2015). <em>BayesFactor: Computation of bayes factors for common designs</em>. Retrieved from <a href="https://CRAN.R-project.org/package=BayesFactor" class="uri">https://CRAN.R-project.org/package=BayesFactor</a></p>
 </div>
 </div>
 </div>
